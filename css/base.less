@@ -1,0 +1,722 @@
+@width:200px;
+@height:200px;
+@font_family1:"微软雅黑";
+@font_family2:"宋体";
+@font_size1:30px;
+@color_red:#A92B2B;
+@color_gray:#565758;
+//@color_red:#565758;
+@color_blue:#073387;
+.abs{  position: absolute;  }
+.rel{  position: relative;  }
+.text-align{ text-align: center; }
+a{  cursor: pointer;  }
+body{
+  margin: 0;
+  padding: 0;
+}
+//expert专家数据库
+.expert_bg {
+  background: url("../img/banner.png") 0px -760px;
+  width: 1000px;
+  height: 140px;
+  margin:0 auto;
+//  text-align: left;
+// .abs();
+//  left: 50%;
+//  margin-left: -500px;
+  }
+//   .expert_title_chinese{
+//     .abs();
+//     margin-left:58px ;
+//     margin-top: 50px;
+//     width: @width - 45;
+//     height:38px ;
+//     font: @font_size1 @font_family1;
+//     color: #373737;
+//   }
+//  .expert_title_english{
+//    .abs();
+//    margin-left:215px ;
+//    margin-top: 45px;
+//    width: @width + 105;
+//    height:47px ;
+//    font_family: @font_family1;
+//    font-size: @font_size1 + 7;
+//    color: @color_red;
+//  }
+  .expert_whole_column{
+    width: @width + 800;
+    height: @height + 1330;
+    margin:0 auto;
+  }
+  .expert_left_column{
+
+  }
+ .expert_bitmappng{
+   background-image: url("../img/expert_bitmappng.jpg");
+   width: 300px;
+   height: 51px;
+   margin-top: 3px;
+   .expert_s{
+     padding-top: 11px;
+     padding-left: 120px;
+     font: 22px @font_family1;
+   }
+ }
+.expert_input{
+  width:@width + 100;
+  height: @height + 140;
+  background-color: #e7f2f9;
+  border: 1px solid white;
+  font:15px @font_family2 ;
+  color: @color_blue;
+  .expert_text{
+   margin-left: 20px;
+    margin-top: 15px;
+  }
+  input{
+    width: @width - 30;
+    height: 22px;
+    margin-left: 15px;
+    border:1px solid @color_blue;
+  }
+  select{
+    width: @width - 30;
+    height: 22px;
+    margin-left: 15px;
+    border:1px solid @color_blue;
+  }
+}
+.expert_button1{
+  background-image: url("../img/expert_button.jpg");
+  width: 83px;
+  height: 35px;
+  margin-left: 70px;
+  &:hover{
+    background-image: url("../img/expert_button_hover.JPG");
+  }
+  .expert_button1_text1{
+    font: 15px  @font_family2;
+    width: 42px;
+    height:21px ;
+    padding-top:7px;
+   margin-left: 23px;
+  }
+}
+.expert_button2{
+  margin-left: 160px;
+  margin-top: -35px;
+  background-image: url("../img/expert_button.jpg");
+  width: 83px;
+  height: 35px;
+  .expert_hand{
+    margin-left: 28px;
+    margin-top: -15px;
+    display: none;
+  }
+  &:hover{
+    background-image: url("../img/expert_button_hover.JPG");
+  }
+  .expert_button1_text2{
+    font: 15px  @font_family2;
+    width: 42px;
+    height:21px ;
+    padding-top:7px;
+    margin-left: 23px;
+  }
+}
+.expert_right_column{
+  .abs();
+  width: 688px;
+  height:1360px ;
+  border: 1px solid darkmagenta;
+  margin-left: 310px;
+  margin-top:-390px ;
+}
+.expert_column_bg{
+  background-image: url("../img/expert_nav_bg.jpg");
+  width: 688px;
+  height: 50px;
+  .expert_right_title{
+    font:24px bold  @font_family1;
+    color: @color_red;
+    .abs();
+    margin-left: 13px;
+    padding-top: 8px;
+  }
+  .expert_title_text{
+    font:14px  @font_family2;
+    color: @color_gray;
+    .abs();
+    margin-left:450px;
+    margin-top: 15px;
+  }
+}
+.expert_content_column_one{
+  width: 688px;
+  height: 260px;
+  border-bottom: 1px solid #8ADAF5;
+}
+.expert_one_left{
+  .abs();
+  margin-left: 12px;
+  margin-top: 15px;
+}
+.expert_one_right{
+  .abs();
+  margin-left: 180px;
+  margin-top: -220px;
+  width: 500px;
+  height: 220px;
+}
+.expert_one_title{
+  background-color: #E4F1F8;
+  width: 495px;
+  height: 25px;
+  color: red;
+  .abs();
+  padding-left: 5px;
+  padding-top: 5px;
+margin-left: 185px;
+  margin-top: 20px;
+}
+.expert_content_one{
+  .abs();
+margin-left: 190px;
+margin-top: 55px;
+  font: 15px/24px @font_family2;
+span{
+  color: @color_blue;
+}
+  p{   color: @color_blue;    }
+  .expert_one_text1{
+    margin-left: 100px;
+  }
+  .expert_one_text2{
+    margin-left: 35px;
+  }
+}
+.expert_page_number{
+  width: 410px;
+  height: 40px;
+  font-family: @font_family1;
+  .abs();
+  margin-left: 180px;
+  margin-top: 36px;
+  ul{
+    list-style: none;
+   .abs();
+    margin-left: 10px;
+    margin-top: -22px;
+    *margin-top: -6px;
+  }
+  li{
+    float: left;
+    color: @color_blue;
+    margin-left: 8px;
+    padding: 3px 5px;
+    border: 1px solid @color_gray;
+    &:hover{
+      background-color: @color_gray;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+}
+
+
+//information专家详细信息
+.information_column_bg{
+  background-image: url("../img/expert_nav_bg.jpg");
+  width: 1000px;
+  height: 50px;
+//  left: 50%;
+//  margin-left: -500px;
+  margin:0 auto;
+  .expert_right_title{
+    font:24px bold  @font_family1;
+    color: @color_red;
+    .abs();
+    margin-left: 13px;
+    padding-top: 8px;
+  }
+  .expert_title_text{
+    font:14px  @font_family2;
+    color: @color_gray;
+    .abs();
+    margin-left:780px;
+    margin-top: 17px;
+  }
+}
+.information_column{
+  margin:0 auto;
+  width:930px;
+  height: 1240px;
+}
+.information_column_one{
+    width: 930px;
+    height: 512px;
+    margin-top: 8px;
+    border: 1px solid @color_gray;
+}
+.information_back_one{
+  border-bottom: 3px solid @color_red;
+  width: 900px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-bottom: 6px;
+  font:20px @font_family1 ;
+  color: red;
+  span{
+    margin-left: 690px;
+    font:15px @font_family2 ;
+  }
+}
+.information_img{
+  background-image: url("../img/expert_people.jpg");
+  width: 135px;
+  height: 189px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.information_table{
+  .abs();
+  margin-top: -190px;
+  margin-left:200px ;
+  text-align: center;
+}
+.information_td1{
+  background-color: #E4F1F8;
+  width: 86px;   }
+.information_td2{
+  width:197px;   }
+.information_td3{
+  background-color: #E4F1F8;
+  width: 87px;   }
+.information_td4{
+  width: 120px;   }
+.information_td5{
+  background-color: #E4F1F8;
+  width: 87px;   }
+.information_td6{
+  width: 126px;   }
+
+.information_column_two{
+  width: 930px;
+  border: 1px solid @color_gray;
+  height: 345px;
+  margin-top: 20px;
+}
+.information_table_two{
+  margin-left: 7px;
+  margin-top: 8px;
+}
+.information_column_two_tr1{
+  border: 1px solid #8ADAF5;
+  background-color: #E4F1F8;
+  td{
+    width: 912px;
+    height: 32px;
+  }
+}
+.information_column_two_tr2{
+  border: 1px solid #8ADAF5;
+  td{
+    width: 912px;
+    height: 55px;
+  }
+}
+.information_column_two_td1{
+    width: 412px;
+  height: 47px;
+  border-right: 1px solid #8ADAF5;
+  padding-top: 8px;
+  padding-left: 45px;
+}
+.information_column_two_td2{
+  width: 457px;
+  height: 59px;
+  .abs();
+  margin-left: 477px;
+  margin-top: -50px;
+}
+
+.information_column_three{
+  .information_column_two();
+}
+
+
+
+//register用户注册
+.register_bg_one{
+  background-color:white ;
+  width: 1199px;
+  height: 657px;
+  margin:0 auto;
+}
+.register_bg_two{
+  background: url("../img/register.jpg");
+  width: 1199px;
+  height: 612px;
+  margin:0 auto;
+}
+.register_background{
+  background: url("../img/register_background.png");
+  *background-color: #cbebf8;
+  width: 442px;
+  height: 552px;
+  .abs();
+  margin-top: 55px;
+  margin-left: 620px;
+}
+.register_user_bg{
+  background: url("../img/register_user_.bgpng.fw.png");
+  width: 147px;
+  height: 41px;
+  margin-left: 20px;
+  margin-top: 11px;
+  .register_user_title{
+    font: 22px @font_family1;
+    color: white;
+    margin-left: 25px;
+    padding-top: 7px;
+  }
+}
+.register_input{
+  border-top: 3px solid #0a3689;
+  .abs();
+  width: 402px;
+  margin-left: 620px;
+  margin-top: 105px;
+  line-height: 40px;
+  padding-top:26px ;
+  padding-left: 40px;
+  input{
+    width: 155px;
+    height: 26px;
+    margin-left: 8px;
+  }
+  select{
+    text-decoration: none;
+    margin-left: 8px;
+    width: 55px;
+    height: 28px;
+  }
+  span{
+    .abs();
+    margin-left: 6px;
+    margin-top: 8px;
+  }
+}
+.register_box{
+  background: url("../img/register_box.jpg");
+  width: 220px;
+  height: 72px;
+  .abs();
+  margin-top: 175px;
+  margin-left: 895px;
+}
+.register_instantly{
+  background: url("../img/register_instantly.fw.png");
+  width: 208px;
+  height: 60px;
+  .abs();
+  margin-top: 550px;
+  margin-left: 725px;
+  .instantly{
+    font: 24px @font_family1;
+    color: white;
+    margin-left:50px ;
+    padding-top: 10px;
+  }
+}
+
+//scientific_project_detail1科研项目详细1
+.scientific_bg {
+  background: url("../img/banner.png") 0px -890px;
+  width: 1000px;
+  height: 140px;
+  margin: 0 auto;
+}
+.project_detail_one{
+  width: 930px;
+  height: 320px;
+  margin:0 auto;
+//  margin-left: 425px;
+  border: 1px solid @color_gray;
+}
+.project_detail_back_one{
+  border-bottom: 3px solid @color_red;
+  width: 900px;
+  margin-left:10px;
+  margin-top: 10px;
+  padding-bottom: 8px;
+  font:20px @font_family1 ;
+  color: red;
+  span{
+    margin-left: 620px;
+    font:15px @font_family2 ;
+  }
+}
+.project_detail_two{
+  width: 930px;
+  height: 220px;
+  margin:0 auto;
+  //  margin-left: 425px;
+  border: 1px solid @color_gray;
+}
+.project_detail_back_two{
+  border-bottom: 3px solid @color_red;
+  width: 900px;
+  margin-left:10px;
+  margin-top: 20px;
+  padding-bottom: 8px;
+  font:20px @font_family1 ;
+  color: red;
+  span{
+    margin-left: 620px;
+    font:15px @font_family2 ;
+  }
+}
+table{
+  border: 1px solid #8ADAF5;
+  td{
+    border: 1px solid #8ADAF5;
+  }
+  tr{
+    border: 1px solid #8ADAF5;
+  }
+}
+.project_detail_td1{  width: 137px; background-color: #E4F1F8;  }
+.project_detail_td2{  width: 175px;   }
+.project_detail_td3{  width: 137px; background-color: #E4F1F8;   }
+.project_detail_td4{  width: 170px;   }
+.project_detail_td5{  width: 110px; background-color: #E4F1F8;   }
+.project_detail_td6{  width: 190px;   }
+
+.project_detail_td7{  width: 137px; background-color: #E4F1F8;  }
+.project_detail_td8{  width: 175px;   }
+.project_detail_td9{  width: 120px; background-color: #E4F1F8;   }
+.project_detail_td10{  width: 170px;   }
+.project_detail_td11{  width: 154px; background-color: #E4F1F8;  }
+.project_detail_td12{  width: 175px;   }
+
+
+//science_detail
+.science_whole_column{
+  width: @width + 800;
+  height: @height + 800;
+  margin:0 auto;
+}
+.science_input{
+  width:@width + 100;
+  height: @height  ;
+  background-color: #e7f2f9;
+  border: 1px solid white;
+  font:15px @font_family2 ;
+  color: @color_blue;
+  .expert_text{
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  input{
+    width: @width - 30;
+    height: 22px;
+    margin-left: 15px;
+    border:1px solid @color_blue;
+  }
+  select{
+    width: @width - 30;
+    height: 22px;
+    margin-left: 15px;
+    border:1px solid @color_blue;
+  }
+}
+.expert_button1{
+  background-image: url("../img/expert_button.jpg");
+  width: 83px;
+  height: 35px;
+  margin-left: 65px;
+  &:hover{
+    background-image: url("../img/expert_button_hover.JPG");
+  }
+  .expert_button1_text1{
+    font: 15px  @font_family2;
+    width: 42px;
+    height:21px ;
+    padding-top:7px;
+    margin-left: 23px;
+  }
+}
+.expert_button2{
+  margin-left: 160px;
+  margin-top: -35px;
+  background-image: url("../img/expert_button.jpg");
+  width: 83px;
+  height: 35px;
+  .expert_hand{
+    margin-left: 28px;
+    margin-top: -15px;
+    display: none;
+  }
+  &:hover{
+    background-image: url("../img/expert_button_hover.JPG");
+  }
+  .expert_button1_text2{
+    font: 15px  @font_family2;
+    width: 42px;
+    height:21px ;
+    padding-top:7px;
+    margin-left: 23px;
+  }
+}
+.science_right_column{
+  .abs();
+  width: 690px;
+  height:730px ;
+  margin-left: 305px;
+  margin-top:-250px ;
+}
+.science_detail_back_one{
+  .project_detail_back_one();
+  width: 670px;
+  .science_back{
+    margin-left: 360px;
+    color: black;
+    font:15px @font_family2 ;
+  }
+}
+.science_detail_back_two{
+  .project_detail_back_one();
+  .abs();
+  width: 670px;
+  margin-top: 300px;
+  span{
+    color: black;
+    margin-left:345px;
+    font:15px @font_family2 ;
+  }
+}
+//.science_td{
+//  width: 100px;
+//  height: 30px;
+//  margin:4px 12px;
+//}
+
+
+
+//science_achievement
+.science_achievement_back_one{
+  .project_detail_back_one();
+  width: 670px;
+  .science_back{
+    margin-left: 410px;
+    color: black;
+    font:15px @font_family2 ;
+  }
+}
+.science_achievement_table{
+  margin-left: 12px;
+//  td{
+//    line-height:35px;
+//  }
+}
+
+
+//scientific_achievement
+.scientific_right_column{
+  .abs();
+  width: 690px;
+  height:700px ;
+  margin-left: 305px;
+  margin-top:-250px ;
+}
+
+
+//science_project
+.science_project_title_bg{
+  background-image: url("../img/science_project_title_bg.jpg");
+  width: 688px;
+  height: 33px;
+  .abs();
+  margin-top: 12px;
+  .sp_right_title{
+    font:15px bold  @font_family2;
+    color: @color_gray;
+    .abs();
+    margin-left: 130px;
+    padding-top: 8px;
+  }
+  .sp_title_text{
+    font:15px  @font_family2;
+    .abs();
+    color: @color_red;
+    margin-left:390px;
+    margin-top: 10px;
+  }
+}
+.sp_banner{
+  a:hover{
+    color:red;
+  }
+  height: 39px;
+  vertical-align:middle;
+  line-height: 39px;
+  .abs();
+  margin-top: 45px;
+  margin-left: -35px;
+  li{
+    width: 680px;
+    height: 39px;
+    border: 1px solid #04ffff;
+  }
+  ul{
+    list-style: none;
+  }
+}
+.sp_page_number{
+  .expert_page_number();
+  margin-top: 990px;
+}
+.sp_banner_text1{
+  font-size: 16px;
+  color:@color_blue;
+  margin-left: 15px;
+
+}
+.sp_banner_text2{
+   color:black;
+  margin-left: 50px;
+   text-decoration: none;
+ }
+.sp_banner_text3{
+  margin-left: 17px;
+  text-decoration: none;
+  color:black;
+}
+.sp_banner_text4{
+  margin-left:9px;
+  color: black;
+  text-decoration: none;
+}
+.sp_banner_text5{
+  margin-left:95px;
+  color: black;
+  text-decoration: none;
+}
+
+
+.sc_right_title{
+  font-weight: bold;
+  .abs();
+  margin-left: 130px;
+  padding-top: 8px;
+}
+.sc_title_text{
+  font-weight: bold;
+  .abs();
+  margin-left:450px;
+  margin-top: 8px;
+}

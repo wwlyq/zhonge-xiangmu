@@ -1,0 +1,16 @@
+body {
+  background-color: red; }
+
+.top, .content {
+  border: 1px solid wheat;
+  width: 500px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  font-family: Arial; }
+
+.content {
+  width: 822px;
+  background-color: blueviolet; }
+
+/*# sourceMappingURL=demo.css.map */
