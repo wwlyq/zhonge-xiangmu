@@ -69,7 +69,7 @@
     border-bottom: 1px solid red;
     border-right: 1px solid white;
     float: left;
-    color: blue;
+    color: #083689;
 }
 .left-gonggao:hover{
     background-color:#e7f2f9 ;
@@ -95,14 +95,14 @@ li.word-zhongxinnew1{
     border-bottom: 1px solid white;
     list-style: none;
     font-size: 14px;
-    color: blue;
+    color: #083689;
     padding-left: 10px;
     padding-top: 6px;
     *margin-left:40px ;
 }
 li.word-zhongxinnew2{
     list-style: none;
-    color: blue;
+    color: #083689;
     font-family: 宋体;
     font-size: 14px;
     padding-top: 12px;

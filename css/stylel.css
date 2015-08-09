@@ -82,7 +82,7 @@
 .time-1{
     float: right;
     margin-right: 15px;
-    color: red;
+    color: #aa2b2b;
 }
 .page-1{
      width: 33px;
@@ -259,7 +259,7 @@
 }
 .newtime{
     font-size: 14px;
-    color:#ccebfa ;
+    color:#70bdff ;
     line-height: 30px;
 }
 .newzhengwen{
@@ -322,15 +322,16 @@
     margin-top: 40px;
 }
 .gaikuang-right{
-    width: 330px;
+    width: 300px;
     /*height: 300px;*/
     margin-top: 7px;
+    margin-bottom: 70px;
     float: left;
-    margin-left: 20px;
+    margin-left: 50px;
     background-color: #e7f2f9;
 }
 .zxjishi{
-    width: 330px;
+    width: 300px;
     height: 50px;
     background-color: #a1dbff;
 }
@@ -352,6 +353,7 @@
 }
 .dajishi{
     width: 300px;
+    height: 983px;
     background-color: #e7f2f9;
     font-size: 15px;
 }
@@ -364,15 +366,20 @@
    margin-top: 25px;
 }
 ul.y2014{
-    margin-left: -30px;
+    margin-left: -42px;
     *margin-left: 0px;
 }
 ul.y2014 li{
+    width: 272px;
     list-style: none;
     font-size: 15px;
     color: black;
     font-weight: 100;
     margin-bottom: 10px;
+    line-height: 16px;
+    font-family: 宋体;
+    /*margin-top: 10px;*/
+    /*margin-left: 27px;*/
 }
 .bg{
     background-image: url("../img/bg.png");
@@ -503,16 +510,16 @@ ul.zaixian{
     left: 508px;
 }
 ul.zaixian li.zaixian1{
-    width: 164px;
+    width: 171px;
     height: 30px;
     background-color: #e9f2f8;
     margin-left: -26px;
 }
 ul.zaixian li.zaixian2{
-    width: 164px;
+    width: 171px;
     height: 30px;
     background-color: #d3e5f2;
-    margin-left: -24px;
+    margin-left: -26px;
 }
 .txt{
     position: absolute;
